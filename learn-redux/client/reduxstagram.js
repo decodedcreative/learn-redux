@@ -5,6 +5,6 @@ import { render } from 'react-dom';
 import css from './styles/style.styl';
 
 // Import Components
-import Main from '../components/Main';
+import Main from './components/Main';
 
 render(<Main/>, document.getElementById('root'));
