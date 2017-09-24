@@ -11,6 +11,8 @@ function postComments(state = [], action) {
       return [
         // from the start to the one we want to delete
         ...state.slice(0,action.i),
+
+
         // after the deleted one, to the end
         ...state.slice(action.i + 1)
       ]

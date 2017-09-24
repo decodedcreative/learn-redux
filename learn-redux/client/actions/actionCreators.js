@@ -20,10 +20,12 @@
 
 	// remove comment
 
-	export function removeComment (postId, index) {
+	export function removeComment(postId, i) {
 		return {
 			type: 'REMOVE_COMMENT',
-			postId,
-			index,
+			i,
+			postId
 		}
 	}
+
+
